@@ -4,11 +4,19 @@ sudo apt install -y git curl python3 python3-pip nodejs npm
 
 pip3 install requests torch datasets transformers nltk
 
-cd ~
+# Install create-react-app
+sudo npm install -g create-react-app
+
+# Install Angular CLI
+sudo npm install -g @angular/cli
 
 mkdir Git
 
 cd Git
+
+Git clone https://github.com/CodedotAl/gpt-code-clippy
+
+Git clone https://github.com/CodedotAl/code-clippy-vscode
 
 git clone https://github.com/Open-Assistant-Ai/base-models
 
